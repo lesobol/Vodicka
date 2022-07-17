@@ -1,0 +1,829 @@
+html {
+    scroll-behavior:smooth;
+}
+* {
+    border-top: 1px solid transparent;
+    #border: 1px solid #f00;   
+    box-sizing: border-box;
+    padding: 0;
+    margin: auto;
+}
+
+
+header{
+    width: 1355px;   
+    height: 141px;
+}
+
+body{
+    width: 1355px; 
+    font-family: 'Circe Rounded';
+}
+
+
+footer{   
+    width: 1355px;
+    height: 391px;
+    background-color: rgb(43,186,185);
+}
+
+
+
+
+ a:hover {
+	  color: #eae8e3;
+	  text-shadow: 0 0 5px #fbf8f8, 0 0 10px #f5f0f0, 0 0 15px #f5f3f3, 0 0 20px #FFFF00, 0 0 35px #fde910, 0 0 40px #e5e619, 0 0 50px #feff00, 0 0 75px #feff40;
+	}
+
+a {text-decoration: none; }
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+button {
+ 
+}
+
+a[href="http:sdf/"] {
+    color: white;
+    text-decoration:underline;
+}
+
+a[href="http:sdft/"] {
+    color: white;
+}
+
+
+.nav1{
+    background-color: white;
+    height: 86px;
+    color: #033476;
+    
+}
+
+.xyunia{
+    display: flex;
+    flex-direction: row;
+    margin-right: 5%;
+}
+
+.lokator{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1%;
+    margin-left: 5%;
+}
+.lok{
+    margin-left: 3%;
+    
+}
+.text1{
+    flex: 2;
+    margin-left: 1%;
+}
+
+
+.drug1{
+    color: #2BBAB9;
+}
+.drug2{
+    color: #2BBAB9;
+}
+
+.drug3{
+    color: #2BBAB9;
+}
+.drug4{
+    color: #2BBAB9;
+}
+.drug5{
+    color: #2BBAB9;
+}
+
+.smile{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+
+
+
+.nav2{
+    background-color: #2BBAB9;
+    height: 55px;
+}
+.logo{
+    margin-left: 5%;
+    margin-top: 0.5%;
+}
+
+.strochki{
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+   
+}
+
+
+.strochka1{
+    margin-top: 20px;
+    margin-left: 5px;
+}
+.strochka2{
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.strochka3{
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.strochka4{
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.strochka5{
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.strochka6{
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.strochka7{
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.strochka8{
+   margin-top: 20px;
+    margin-left: 5px;
+}
+
+.strochka9{
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.strochka10{
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.korzina{
+    margin-right: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section1{ 
+    height: 512px;
+    background-image: url(image/zadfon.jpg);
+    background-size: cover;
+    color: #033476;
+}
+
+.shapka{
+    display: flex;
+    flex-direction:row;
+}
+
+.zagolovok1{
+    text-align: center;
+    margin-top: 3%;
+    margin-left: 25%;
+    font-weight: 900;
+}
+.ellips{
+    float: right;
+    margin-top: 3%;
+    margin-right: 15%;
+    font-size: 13px;
+    display: flex;
+    flex-direction:row;
+}
+.image{
+    margin:auto;
+    max-width: 90%;
+    height: 300px;
+}
+
+.nadpisi{
+    display: flex;
+    flex-direction:row;
+}
+
+.nadpis1{
+    margin-left: 18%;
+    flex: 2;
+}
+.nadpis2{
+    margin-right: 10%;
+    flex: 1;
+}
+
+.button1{
+    background-color: #feda00;
+    border: none;
+    color: #0035E9;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    width: 220px;
+    margin-right: 10%; 
+    border-radius: 8px;
+}
+
+
+
+
+
+
+.section2{
+    background-color:  rgb(43,186,185);   
+    height: 328px;
+}
+
+.zagalok2{
+    text-align: center;
+    margin-top: 3%;
+    color: #FFFFFF;
+}
+
+.stocka{
+    margin-top: 5%;
+    display: flex;
+    flex-direction:row;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.legkistart{
+    display: flex;
+    flex-direction:row;
+    
+}
+
+.image1{
+    max-width: 70%;
+    flex: 1;
+}
+.nadpisi1{
+    margin-left: auto;
+    margin-right: auto;
+    flex: 3;
+}
+
+
+.netzaloga{
+    display: flex;
+    flex-direction:row;
+    
+}
+.image2{
+   
+    flex: 2;
+}
+
+.nadpisi2{
+    flex: 3.4;
+}
+
+.vernad{
+    margin-left: 15px;
+    margin-bottom: 10px;
+    color: #FEDA00;
+}
+.niznad{
+    margin-left: 15px;
+    color: #FFFFFF;
+}
+.vovremi{
+    display: flex;
+    flex-direction:row;
+    
+}
+.image3{
+    max-width: 70%;
+    flex:0.9;
+}
+
+.nadpisi3{
+    flex: 3;
+}
+
+
+
+
+
+
+.section3{   
+    height: 512px;
+}
+
+.zagolovok3{
+    text-align: center;
+    margin-top: 3%;
+    color: #033476;
+}
+
+.osnova{
+    margin-top: 1%;
+    margin-left: 10%;
+}
+
+.stolbik1{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-left: 7em;
+    margin-top: 13em;
+    color: #033476;
+}
+
+.button8{
+    background-color: #feda00;
+    border: none;
+    color: #0035E9;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    width: 200px; 
+    border-radius: 5px;
+}
+
+.podpis1{
+    font-size: 20px;
+    padding: 10px;
+}
+
+.cena01{
+    font-size: 2.5em;
+}
+
+.stolbik2{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-left: 42em;
+    margin-top: 13em;
+    color: #033476;
+}
+
+.cena02{
+    font-size: 2.5em;
+}
+
+.button9{
+    background-color: #feda00;
+    border: none;
+    color: #0035E9;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    width: 200px; 
+    border-radius: 5px;
+}
+
+.podpis2{
+    font-size: 20px;
+    padding: 10px;
+}
+
+
+
+
+
+
+.section4{
+    background-color:  rgb(43,186,185);   
+    height: 619px;
+}
+
+.zagolovok4{
+    text-align: center;
+    margin-top: 3%;
+    color: #FFFFFF;
+}
+
+.linia2{
+    display: flex;
+    flex-direction:row;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+
+
+
+
+.section5{   
+    height: 512px;
+}
+
+.zagolovok5{
+    text-align: center;
+    margin-top: 3%;
+    color:#033476;
+}
+
+.linia3{
+    display: flex;
+    flex-direction:row;
+    margin-top: 3%;
+}
+
+.gel{
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 680px;
+
+}
+.chai{
+    position: absolute;
+    margin-left: 180px;
+    margin-top: 45px;
+}
+
+
+.button2{
+    background-color: rgba(43,186,185,0.5);
+    border: none;
+    height: 300px;
+    width: 420px;
+    margin-left: 15%;
+    border-radius: 12px;
+    
+}
+
+.button3{
+    background-color: rgba(43,186,185,0.5);
+    border: none;
+    height: 300px;
+    width: 440px;
+    margin-right: 15%;
+    border-radius: 12px;
+
+}
+
+
+.gel1{
+    position: absolute;
+    margin-left: 900px;
+    margin-top: 50px;
+    color: #033476;
+    font-size: 20px;
+}
+
+.chai1{
+    position: absolute;
+    margin-left: 400px;
+    margin-top: 50px;
+    color: #033476;
+    font-size: 20px; 
+}
+
+.cena1{
+    position: absolute;
+    margin-left: 410px;
+    margin-top: 175px;
+    color: #033476;
+    font-size: 30px; 
+}
+
+.cena2{
+    position: absolute;
+    margin-left: 900px;
+    margin-top: 170px;
+    color: #033476;
+    font-size: 30px;
+}
+
+.button4{
+    position: absolute;
+    background-color: #feda00;
+    border: none;
+    color: #0035E9;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    width: 220px;
+    margin-right: 10%; 
+    border-radius: 8px;
+    margin-left: 390px;
+    margin-top: 220px;
+}
+
+.button5{
+    position: absolute;
+    background-color: #feda00;
+    border: none;
+    color: #0035E9;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    width: 220px;
+    margin-right: 10%; 
+    border-radius: 8px;
+    margin-left: 900px;
+    margin-top: 220px;
+}
+
+.venzilb{
+    position: absolute;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+
+.venzilg{
+    position: absolute;
+    margin-left: 1250px;
+    margin-bottom: 0px;
+}
+
+
+
+
+
+
+.section6{
+    background-color:  rgb(43,186,185);  
+    height: 619px;
+}
+.zagolovok6{
+    text-align: center;
+    margin-top: 3%;
+    color:#FFFFFF;
+}
+.linia4{
+    margin-left: 10%;   
+    margin-top: 3%;
+}
+.vseotziv{
+    float: right;
+    margin-top: 5%;
+    margin-right: 10%;
+    color:#FFFFFF;
+}
+.otziv{
+    margin-top: 1%;
+}
+
+.polzunok{
+    margin-top: 3%;
+    margin-left: 35%;
+    margin-bottom: 2%;  
+}
+.button6 {
+    background-color: #feda00;
+    border: none;
+    color: #0035E9;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    width: 220px;
+    margin-right: 10%; 
+    border-radius: 8px;
+    margin-left: 42%;
+    margin-top: 2%;
+}
+
+
+
+
+
+
+
+.section7{   
+    height: 512px;
+}
+
+.zagolovok7{
+    text-align: center;
+    margin-top: 3%;
+    color:#033476;
+}
+
+.novinki{
+    margin-left: 10%;   
+    margin-top: 3%;
+}
+
+.podpisi{
+    display: flex;
+    flex-direction:row;
+    color: #033476;
+}
+
+.zag1{
+    margin-left: 12%;
+}
+.zag2{
+    margin-left: 7%;
+}
+.zag3{
+    margin-right: 1%;
+}
+.zag4{
+    margin-right: 11%;
+}
+
+
+
+.blok1{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5em;
+    margin-top: 7em;
+    
+}
+
+.socseti{
+    flex: 1;
+}
+
+.button7{
+    background-color: #feda00;
+    border: none;
+    color: #0035E9;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    width: 220px;
+    border-radius: 8px;
+    margin-top: 7em;
+
+}
+
+.blok2{
+    position: absolute;
+    color: white;
+    margin-left: 20em;
+    margin-top: 5em;
+    font-size: 17px;
+}
+
+.nazv1{
+    font-size: 23px;
+}
+
+.podpisi1{
+    text-align: left;
+    margin-top: 12px;
+}
+.podpisi2{
+    text-align: left;
+    margin-top: 12px;
+}
+.podpisi3{
+    text-align: left;
+    margin-top: 12px;
+}
+.podpisi4{
+    text-align: left;
+    margin-top: 12px;
+}
+.podpisi5{
+    text-align: left;
+    margin-top: 12px;
+}
+.podpisi6{
+    text-align: left;
+    margin-top: 12px;
+}
+.podpisi7{
+    text-align: left;
+    margin-top: 12px;
+}
+
+.blok3{
+    position: absolute;
+    color: white;
+    margin-left: 35em;
+    margin-top: 5em;
+    font-size: 17px;
+}
+.nazv2{
+    font-size: 20px;
+}
+.podpisi11{
+    text-align: left;
+    margin-top: 12px;
+}
+.podpisi22{
+    text-align: left;
+    margin-top: 12px;
+}
+.podpisi33{
+    text-align: left;
+    margin-top: 12px;
+}
+.podpisi44{
+    text-align: left;
+    margin-top: 12px;
+}
+
+
+
+
+
+
+.blok4{
+    position: absolute;
+    color: white;
+    margin-left: 50em;
+    margin-top: 5em;
+    font-size: 17px;
+}
+.nazv3{
+    font-size: 20px;
+}
+.nazv4{
+    font-size: 20px;
+}
+.podpisi111{
+    text-align: left;
+    margin-top: 12px;
+}
+.podpisi222{
+    text-align: left;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.podpisi333{
+    text-align: left;
+    margin-top: 12px;
+}
+.podpisi444{
+    text-align: left;
+    margin-top: 12px;
+}
+
+
+.blok5{
+    position: absolute;
+    color: white;
+    margin-left: 65em;
+    margin-top: 5em;
+    font-size: 17px;
+}
+.nazv5{
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+.podpisi11111{
+    text-align: left;
+    margin-top: 12px;
+}
+.podpisi2222{
+    text-align: left;
+    margin-top: 12px;
+}
+.podpisi3333{
+    text-align: left;
+    margin-top: 12px;
+}
+
+
+.socseti2{
+    position: absolute;
+    margin-left: 79em;
+    margin-top: 11em;
+}
